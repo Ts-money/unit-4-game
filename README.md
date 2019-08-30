@@ -1,5 +1,5 @@
-Gummy Bear Collectors
-Instructions
+# Gummy Bear Collectors
+## Instructions
 A random number will be generated each game.
 You have to reach the number by clicking the gummy bear.
 Each gummy bear has it's own value it adds to your total.
