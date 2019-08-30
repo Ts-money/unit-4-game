@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gummy Bears Collector</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<script src="assets/javascript/game.js" type="text/javascript"></script>
+
+<body>
+
+<div id="title">
+    <h1>Gummy Bear Collector</h1>
+</div>
+<br>
+<div id="tutorial">
+    <p>The game will generate a random number every game</p>
+    <br>
+    <p>There are four gummy bears. Each gummy bear adds a value to your total score.</p>
+    <br>
+    <p>To win your total score must equal the random number</p>
+    <br>
+    <p>Each gummy bear holds it's own value through each game.</p>
+    <br>
+    <p>The value of the gummy bear randomizes every game.</p>
+</div>
+
+<div id="randomNumber">
+    <p>Number to reach: </p>
+    <br>
+    <span id="randmNumber"></span>
+</div>
+
+<div id="stats">
+    <p id="livestatus"></p>
+    <br>
+    <p>Wins:
+        <span id="wins">0</span>
+    </p>
+    <br>
+    <p>Losses:
+        <span id="losses">0</span>
+    </p>
+</div>
+<br>
+<br>
+<br>
+<br>
+<div id="images">
+    <img onclick="handleGummyBear1();" id="greenbear" class="bear" src="assets/images/Blue Bear.png" alt="Blue Bear" width=auto height="65">
+    <img onclick="handleGummyBear2();" id="orangebear" class="bear" src="assets/images/Red Bear.png" alt="Red Bear" width=auto height="65">
+    <img onclick="handleGummyBear3();" id="purplebear" class="bear" src="assets/images/Green Bear.png" alt="Green Bear" width=auto height="65">
+    <img onclick="handleGummyBear4();" id="redbear" class="bear" src="assets/images/Pink Bear.png" alt="Pink Bear"
+         width=auto height="65">
+</div>
+
+<br>
+
+<div id="totalTitle">
+    <p>Your total score is:</p>
+    <br>
+    <p id="total">0</p>
+</div>
+
+<script type="text/javascript">
+    startGame();
+</script>
+
+</body>
+</html>

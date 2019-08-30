@@ -1,0 +1,77 @@
+body {
+    background: url('../images/Bears\ Background.jpg');
+    background-size: cover;
+    text-align: center;
+}
+
+@font-face {
+    font-family: 'gummybear';
+    src: url('../font/font.ttf');
+}
+
+#title {
+    font-size: 6rem;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    width: 50%;
+    margin: 0 auto;
+    font-family: gummybear;
+}
+
+#tutorial {
+    float: left;
+    width: 40%;
+    padding: 18px 30px;
+    margin-left: 5%;
+    background-color: #cdee7f;
+    line-height: 2.0rem;
+    font-weight: bold;
+    font-size: 1.1rem;
+    font-family: 'Comfortaa', cursive;
+}
+
+#randomNumber {
+    background-color: #bce9d0;
+    box-sizing: border-box;
+    width: 43%;
+    margin-right: 5%;
+    float: right;
+    padding: 15px 0px;
+    font-family: 'Comfortaa', cursive;
+}
+
+#stats {
+    background-color: #ec939f;
+    box-sizing: border-box;
+    width: 43%;
+    margin-right: 5%;
+    margin-top: 1%;
+    float: right;
+    padding: 10px 0px;
+    font-family: 'Comfortaa', cursive;
+}
+
+.bear {
+    margin: 20px 10px;
+}
+
+#totalTitle {
+    background-color: #f1ad92;
+    box-sizing: border-box;
+    width: 43%;
+    margin-right: 5%;
+    margin-top: 1%;
+    float: right;
+    padding: 10px 0px;
+    font-family: 'Comfortaa', cursive;
+}
+
+#images {
+    background-color: rgb(205, 174, 212);
+    box-sizing: border-box;
+    width: 43%;
+    margin-right: 5%;
+    margin-top: 1%;
+    float: right;
+    padding: 10px 0px;
+}
