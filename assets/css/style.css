@@ -51,6 +51,10 @@ body {
     font-family: 'Comfortaa', cursive;
 }
 
+#livestatus {
+    font-weight: bold;
+}
+
 .bear {
     margin: 20px 10px;
 }
