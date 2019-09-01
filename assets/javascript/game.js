@@ -14,10 +14,10 @@ function startGame() {
     randomNumber = Math.floor(Math.random() * 102) + 12;
     totalScore = 0;
     // generates the random numbers for the gummy bear buttons
-    gummyBear1 = Math.floor(Math.random() * 9) + 1;
-    gummyBear2 = Math.floor(Math.random() * 9) + 1;
-    gummyBear3 = Math.floor(Math.random() * 9) + 1;
-    gummyBear4 = Math.floor(Math.random() * 9) + 1;
+    gummyBear1 = Math.floor(Math.random() * 12) + 1;
+    gummyBear2 = Math.floor(Math.random() * 12) + 1;
+    gummyBear3 = Math.floor(Math.random() * 12) + 1;
+    gummyBear4 = Math.floor(Math.random() * 12) + 1;
     // updates the site to show the randomnumber.
     updateSite();
 }
